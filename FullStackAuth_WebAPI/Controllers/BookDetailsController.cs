@@ -9,16 +9,22 @@ using System.Security.Claims;
 
 
 
-namespace FullStackAuth_WebAPI.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BookDetailsController : ControllerBase
-    {
-        private readonly ApplicationDbContext _context;
+//nams aullStackAuth_WebAPI.Controllers
+//{
+//    [Route("api/[controller]")]
+//    [ApiController]
+//    public class BookDetailsController : ControllerBase
+    //{
+    //    private readonly ApplicationDbContext _context;
 
-        public BookDetailsController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-        [HttpGet]
+    //    public BookDetailsController(ApplicationDbContext context)
+    //    {
+    //        _context = context;
+    //    } 
+      //[HttpGet("bookId")]
+       //ublic IActionResult GetBookDetails()
+        //{}
+
+
+
+        // return StatusCode(200);
