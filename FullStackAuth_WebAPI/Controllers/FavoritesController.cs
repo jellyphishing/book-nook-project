@@ -21,7 +21,7 @@ namespace FullStackAuth_WebAPI.Controllers
         {
             _context = context;
         }
-        [HttpPost, Authorize]
+        [HttpGet, Authorize]
         public IActionResult GetUsersFavorites()
         {
             try

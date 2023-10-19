@@ -13,11 +13,12 @@ namespace FullStackAuth_WebAPI.Models
         [Required]
         public string BookId { get; set; }
         [Required]
-        public string Text { get; set; }
+        public string Title { get; set; }
         [Required]
-        public double Rating { get; set; }
+        public string ThumbnailUrl { get; set; }
         [ForeignKey("User")]
         public string UserId { get; set; }
+
         public User User { get; set; }
     }
 }
